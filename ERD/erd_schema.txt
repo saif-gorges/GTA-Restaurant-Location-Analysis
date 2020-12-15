@@ -7,8 +7,8 @@ income
 -
 neighbourhood_id INT FK - neighbourhood.neighbourhood_id PK
 neighborhood_name VARCHAR
-median_income INT
-average_income INT
+median_income DOUBLE
+average_income DOUBLE
 
 crime
 -
@@ -18,8 +18,7 @@ total_average_crime_rate DOUBLE
 
 ethnicity
 -
-neighbourhood_id INT FK - neighbourhood.neighbourhood_id PK
-neighborhood_name VARCHAR
+neighborhood_name VARCHAR FK - neighbourhood.neighbourhood_name PK
 oceania_origins INT
 asian_origins INT
 north_american_aboriginal_origins INT
