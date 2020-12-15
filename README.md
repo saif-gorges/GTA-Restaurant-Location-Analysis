@@ -4,7 +4,7 @@
 _Date_: December, 17th, 2020\
 ETL Project- **Toronto New Restaurant Location Analysis** <br/>
 
-![Toronto image](./Resources/toronto.png)
+![Toronto image](./Resources/toronto.jpg)
 
 ## Table of contents
   * [Introduction](#introduction)
