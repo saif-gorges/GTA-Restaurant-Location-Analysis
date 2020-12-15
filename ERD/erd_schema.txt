@@ -1,0 +1,35 @@
+neighbourhood
+-
+neighbourhood_id INT PK
+neighbourhood_name VARCHAR
+
+income
+-
+neighbourhood_id INT FK - neighbourhood.neighbourhood_id PK
+neighborhood_name VARCHAR
+median_income INT
+average_income INT
+
+crime
+-
+neighbourhood_id INT FK - neighbourhood.neighbourhood_id PK
+neighborhood_name VARCHAR
+total_average_crime_rate DOUBLE
+
+restaurant
+-
+restaurant_id INT PK
+category VARCHAR
+restaurant_name VARCHAR
+price_range VARCHAR
+latitude DOUBLE
+longitude DOUBLE
+neighbourhood_id FK - neighbourhood.neighbourhood_id
+neighborhood_name VARCHAR
+
+yelp_ratings
+-
+restaurant_id INT FK - restaurant.restaurant_id PK
+restaurant_name VARCHAR
+ratings DOUBLE
+review_counts INT
