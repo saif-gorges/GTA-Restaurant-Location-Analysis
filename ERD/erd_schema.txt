@@ -30,7 +30,7 @@ caribbean_origins INT
 
 restaurant
 -
-restaurant_id INT PK
+id INT PK
 category VARCHAR
 restaurant_name VARCHAR
 price_range VARCHAR
@@ -45,10 +45,11 @@ neighbourhood_id INT FK - neighbourhood.neighbourhood_id PK
 neighborhood_name VARCHAR
 number_of_restaurants INT
 
-yelp_ratings
+yelp_rating
 -
-restaurant_id INT FK - restaurant.restaurant_id PK
-restaurant_name VARCHAR
-neighbourhood_name VARCHAR
+restaurant_id INT
+name VARCHAR
+category VARCHAR
 ratings DOUBLE
 review_counts INT
+zip_code VARCHAR
