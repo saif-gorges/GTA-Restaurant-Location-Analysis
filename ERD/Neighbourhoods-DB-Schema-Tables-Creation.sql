@@ -34,13 +34,13 @@ CREATE TABLE "crime" (
 CREATE TABLE "ethnicity" (
     "neighbourhood_id" INT   NOT NULL,
     "neighbourhood_name" VARCHAR   NOT NULL,
-	"oceania_origins" INT
-	"asian_origins" INT
-	"north_american_aboriginal_origins" INT
-	"other_north_american_origins" INT
-	"latin_origins" INT
-	"european_origins" INT
-	"african_origins" INT
+	"oceania_origins" INT,
+	"asian_origins" INT,
+	"north_american_aboriginal_origins" INT,
+	"other_north_american_origins" INT,
+	"latin_origins" INT,
+	"european_origins" INT,
+	"african_origins" INT,
 	"caribbean_origins" INT,
     CONSTRAINT "pk_ethnicity" PRIMARY KEY (
         "neighbourhood_id"
