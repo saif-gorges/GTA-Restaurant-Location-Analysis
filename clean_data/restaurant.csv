@@ -1,4 +1,4 @@
-restaurant_id,Category,Restaurant Name,Restaurant Price Range,Restaurant Latitude,Restaurant Longitude,neighbourhood_id,neighbourhood_name
+restaurant_id,category,restaurant_name,price_range,latitude,longitude,neighbourhood_id,neighbourhood_name
 1,Afghan,The Host,$11-30,43.669934999999995,-79.39585799999999,95,annex
 2,Afghan,Aanch Modernist Indian Cuisine,$11-30,43.644708,-79.39067,77,waterfront communities-the island
 3,Afghan,Silk Road Kabob House,Under $10,43.659816,-79.385591,76,bay street corridor

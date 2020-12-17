@@ -61,19 +61,6 @@ CREATE TABLE "restaurant" (
      )
 );
 
-CREATE TABLE "restaurant" (
-    "restaurant_id" INT   NOT NULL,
-    "category" VARCHAR   NOT NULL,
-    "restaurant_name" VARCHAR   NOT NULL,
-    "price_range" VARCHAR   NOT NULL,
-    "latitude" Float4   NOT NULL,
-    "longitude" Float4  NOT NULL,
-    "neighbourhood_id" INT   NOT NULL,
-    "neighbourhood_name" VARCHAR   NOT NULL,
-    CONSTRAINT "pk_restaurant" PRIMARY KEY (
-        "restaurant_id"
-     )
-);
 CREATE TABLE "neighbourhood_restaurant" (
     "neighbourhood_id" INT   NOT NULL,
     "neighbourhood_name" VARCHAR   NOT NULL,
@@ -100,8 +87,6 @@ ALTER TABLE "crime" ADD CONSTRAINT "fk_crime_neighbourhood_id" FOREIGN KEY("neig
 REFERENCES "neighbourhood" ("neighbourhood_id");
 ALTER TABLE "ethnicity" ADD CONSTRAINT "fk_ethnicity_neighbourhood_id" FOREIGN KEY("neighbourhood_id")
 REFERENCES "neighbourhood" ("neighbourhood_id");
-ALTER TABLE "yelp_ratings" ADD CONSTRAINT "fk_yelp_ratings_restaurant_id" FOREIGN KEY("restaurant_id")
-REFERENCES "restaurant" ("restaurant_id");
 
 -- Viewing the tables 
 Select * from neighbourhood;
