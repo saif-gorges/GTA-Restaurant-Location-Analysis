@@ -60,6 +60,20 @@ CREATE TABLE "restaurant" (
         "restaurant_id"
      )
 );
+
+CREATE TABLE "restaurant" (
+    "restaurant_id" INT   NOT NULL,
+    "category" VARCHAR   NOT NULL,
+    "restaurant_name" VARCHAR   NOT NULL,
+    "price_range" VARCHAR   NOT NULL,
+    "latitude" Float4   NOT NULL,
+    "longitude" Float4  NOT NULL,
+    "neighbourhood_id" INT   NOT NULL,
+    "neighbourhood_name" VARCHAR   NOT NULL,
+    CONSTRAINT "pk_restaurant" PRIMARY KEY (
+        "restaurant_id"
+     )
+);
 CREATE TABLE "neighbourhood_restaurant" (
     "neighbourhood_id" INT   NOT NULL,
     "neighbourhood_name" VARCHAR   NOT NULL,
@@ -69,12 +83,12 @@ CREATE TABLE "neighbourhood_restaurant" (
      )
 );
 CREATE TABLE "yelp_ratings" (
-    "restaurant_id" INT   NOT NULL,
+    "restaurant_id" VARCHAR   NOT NULL,
     "restaurant_name" VARCHAR   NOT NULL,
-	"category" VARCHAR   NOT NULL,
-    "ratings" Float   NOT NULL,
-    "review_counts" INT   NOT NULL,
-	"zip_code" VARCHAR   NOT NULL,
+	"category" VARCHAR,
+    "ratings" Float,
+    "review_counts" INT,
+	"zip_code" VARCHAR,
     CONSTRAINT "pk_yelp_ratings" PRIMARY KEY (
         "restaurant_id"
      )
