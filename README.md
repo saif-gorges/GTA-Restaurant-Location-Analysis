@@ -23,7 +23,7 @@ The goal of this new layer of analysis will be to help new restaurant owners dec
 Our analysis will consider ethnicity, local competition, income and crime per neighborhood to help determine whether a restaurant could potentially be profitable or not for each neighborhood.
 
 ## <a name="data-extraction"></a>Data Extraction
-In this project we extracted, transformed, and loaded these datasets: Toronto Neighbourhood, Income, Crime, Toronto Restaurants Data, Restaurants ratings. 
+In this project we extracted, transformed, and loaded these datasets: Toronto Neighbourhood, Income, Crime, Toronto Restaurants Data, Restaurants Ratings. 
 
 * Datasets Sources:
   * Toronto Neighbourhood Data - Toronto City Open Data
@@ -40,8 +40,8 @@ ERD (Entity Relationship Diagram) of the tables was sketched out using a tool ca
 ## <a name="data-engineering"></a>Data Engineering </br>
 * Created a table schema for each of the six CSV files using the information and specified data types, primary keys, foreign keys, and other constraints.
 * Tables are to be created in the correct order to handle foreign keys.
-* Loaded the final tables transformed in jupyternote book into the corresponding SQL table.
-* You can find the table schema sql file is here: [table_schema](./table_schema.sql)
+* Loaded the final tables transformed in jupyter notebook into the corresponding SQL table.
+* You can find the table schema sql file here: [table_schema](./table_schema.sql)
 
 ## <a name="data-transformation"></a>Data Transformation
 - The CSV files were transfomred by using Pandas in Jupyter Notebook
