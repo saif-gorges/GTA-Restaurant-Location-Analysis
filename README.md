@@ -55,7 +55,10 @@ ERD (Entity Relationship Diagram) of the tables was sketched out using a tool ca
     * Created new columns and assign neighbourhoods using Toronto geometry information and GeoPandas package.
 
 ## <a name="load"></a>Load
-The final tables were loaded into a PostgreSQL server by creating Database connection in Jupyter Notebook.</br>
+- The final tables were loaded into a PostgreSQL server by creating Database connection in Jupyter Notebook.</br>
+- Import the module sqlalchemy and create an engine with the parameters user, password, and database name to connect and log in to the PostgreSQL database.
+![Connection image](./Resources/Images/loading_connection_query.png)
+
 The final tables are the following: 
 - neighbourhood table
 - income table
