@@ -41,7 +41,7 @@ ERD (Entity Relationship Diagram) of the tables was sketched out using a tool ca
 * Created a table schema for each of the six CSV files using the information and specified data types, primary keys, foreign keys, and other constraints.
 * Tables are to be created in the correct order to handle foreign keys.
 * Loaded the final tables transformed in jupyter notebook into the corresponding SQL table.
-* You can find the table schema sql file here: [table_schema](./table_schema.sql)
+* You can find the table schema sql file here: [table_schema](./ERD/Neighbourhoods-DB-Schema-Tables-Creation.sql)
 
 ## <a name="data-transformation"></a>Data Transformation
 - The CSV files were transfomred by using Pandas in Jupyter Notebook
