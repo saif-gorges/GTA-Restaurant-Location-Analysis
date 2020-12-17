@@ -18,9 +18,9 @@ ETL Project- **Toronto New Restaurant Location Analysis** <br/>
 
 ## <a name="introduction"></a>Introduction
 Where to open a new restaurant? Choosing a new restaurant location is the most important, at the same time, the most difficult decision throughout the whole process. 
-This project is look at restaurant data in Toronto as well as ethnicity demographics, neighbourhood average income/crime. 
+This project gives an insight at restaurant data in Toronto as well as ethnicity demographics, neighbourhood average income/crime. 
 The goal of this new layer of analysis will be to help new restaurant owners decide as to where the best placement of a new restaurant could be. 
-Our analysis will consider ethnicity, local competition, income and crime per neighborhood to help determine whether a restaurant could potentially be profitable or not each neighborhood.
+Our analysis will consider ethnicity, local competition, income and crime per neighborhood to help determine whether a restaurant could potentially be profitable or not for each neighborhood.
 
 ## <a name="data-extraction"></a>Data Extraction
 In this project we extracted, transformed, and loaded these datasets: Toronto Neighbourhood, Income, Crime, Toronto Restaurants Data, Restaurants ratings. 
