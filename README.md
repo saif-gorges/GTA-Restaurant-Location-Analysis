@@ -57,11 +57,14 @@ ERD (Entity Relationship Diagram) of the tables was sketched out using a tool ca
 ## <a name="load"></a>Load
 - The final tables were loaded into a PostgreSQL server by creating Database connection in Jupyter Notebook.</br>
 - Import the module sqlalchemy and create an engine with the parameters user, password, and database name to connect and log in to the PostgreSQL database. </br>
-
 ![Connection image](./Resources/Images/loading_connection_query.png)
+
 - Load Final Transformed data into the tables using the to_sql() function with the parameters table name, engine name, if_exists, and index. </br>
 This approach accomplishes data loading in a more direct way, and allows us to add a whole dataframe to a PostgreSQL database all at once. </br>
 ![Load image](./Resources/Images/load_query.png)
+
+- Checked if the tables are successfully populated with data in postgres - Neighbourhoods_DB using the SELECT command. It also shows the number of rows affected successfully.
+![DB image](./Resources/Images/db_data.png)
 
 The final tables are the following: 
 - neighbourhood table
