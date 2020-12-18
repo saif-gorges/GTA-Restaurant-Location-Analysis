@@ -81,7 +81,6 @@ The final tables are the following:
 
 ## <a name="sample-analysis"></a>Sample Analysis and Insights
 
-
 ## Technologies
 Project was created with:
 
