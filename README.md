@@ -6,7 +6,7 @@ ETL Project- **Toronto New Restaurant Location Analysis** <br/>
 
 ![Toronto image](./Resources/toronto.jpg)
 
-## Table of contents
+## Table of Contents
   * [Introduction](#introduction)
   * [Data Extraction](#data-extraction)
   * [Data Modeling](#data-modeling)
@@ -79,7 +79,9 @@ The final tables are the following:
   - [Query-joining-Income Crime Ethnicity and number of Restaurants](./ERD/Query-joining-Income-Crime-Ethnicity_Restaurant_number.sql)
   - [Query-joining-Restaurants and Yelp Ratings](./ERD/restaurant_yelp_join_query.sql)
 
-## <a name="sample-analysis"></a>Sample Analysis and Insights
+## <a name="sample-analysis"></a>Sample Analysis
+![5stars_restaurants_categories](./sample_analysis/rating_5_category.png)
+
 
 ## Technologies
 Project was created with:
