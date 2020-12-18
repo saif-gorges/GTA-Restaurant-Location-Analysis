@@ -26,9 +26,9 @@ and ic.neighbourhood_name = e.neighbourhood_name order by ic.neighbourhood_id ;
 
 --Join the income crime ethnicity view and the neighbourhood_restaurant table -- 133 records
 
-SELECT ice.neighbourhood_id, ice.neighbourhood_name,ice.oceania_origins, ice.asian_origins,
+SELECT ice.neighbourhood_id, ice.neighbourhood_name, r.number_of_restaurants, ice.oceania_origins, ice.asian_origins,
 ice.north_american_aboriginal_origins,ice.other_north_american_origins, ice.latin_origins,
-ice.european_origins,ice.african_origins,ice.caribbean_origins, r.number_of_restaurants
+ice.european_origins,ice.african_origins,ice.caribbean_origins
 from income_crime_ethnicity_data AS ice inner join
 neighbourhood_restaurant AS r on ice.neighbourhood_id = r.neighbourhood_id
 ORDER BY r.number_of_restaurants DESC
