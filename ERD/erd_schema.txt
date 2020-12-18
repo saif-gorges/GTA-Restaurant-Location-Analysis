@@ -18,7 +18,8 @@ total_average_crime_rate DOUBLE
 
 ethnicity
 -
-neighborhood_name VARCHAR FK - neighbourhood.neighbourhood_name PK
+neighbourhood_id INT FK - neighbourhood.neighbourhood_id PK
+neighborhood_name VARCHAR
 oceania_origins INT
 asian_origins INT
 north_american_aboriginal_origins INT
@@ -30,7 +31,7 @@ caribbean_origins INT
 
 restaurant
 -
-id INT PK
+restaurant_id INT PK
 category VARCHAR
 restaurant_name VARCHAR
 price_range VARCHAR
@@ -48,7 +49,7 @@ number_of_restaurants INT
 yelp_rating
 -
 restaurant_id INT
-name VARCHAR
+restaurant_name VARCHAR
 category VARCHAR
 ratings DOUBLE
 review_counts INT
