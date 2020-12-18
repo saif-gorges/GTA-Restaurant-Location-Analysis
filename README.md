@@ -75,7 +75,7 @@ The final tables are the following:
 - neighbourhood_restaurant table
 - yelp_ratings table
 
-- Wrote queries to view the data after joining few tables ![Query-joining-Income-Crime-Ethnicity-Restaurants](./ERD/Query-joining-Income-Crime-Ethnicity_Restaurant_number.sql)
+- Wrote queries to view the data after joining few tables [Query-joining-Income-Crime-Ethnicity-Restaurants](./ERD/Query-joining-Income-Crime-Ethnicity_Restaurant_number.sql)
 
 ## <a name="sample-analysis"></a>Sample Analysis and Insights
 
