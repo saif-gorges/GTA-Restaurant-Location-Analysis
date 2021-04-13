@@ -1,4 +1,4 @@
-# GTA Restaurant Location Analysis
+# GTA Restaurant Location Database
 
 **Submitted By:** Dong Yi Kim | Saif Gorges | Saloni Gupta | Sooyeon Kim </br>
 _Date_: December, 17th, 2020\
@@ -17,10 +17,7 @@ ETL Project- **Toronto New Restaurant Location Analysis** <br/>
   * [Technologies](#technologies)
 
 ## <a name="introduction"></a>Introduction
-Where to open a new restaurant? Choosing a new restaurant location is the most important, at the same time, the most difficult decision throughout the whole process. 
-This project gives an insight at restaurant data in Toronto as well as ethnicity demographics, neighbourhood average income/crime. 
-The goal of this new layer of analysis will be to help new restaurant owners decide as to where the best placement of a new restaurant could be. 
-Our analysis will consider ethnicity, local competition, income and crime per neighborhood to help determine whether a restaurant could potentially be profitable or not for each neighborhood.
+What are the best neighbourhoods in Toronto to open up a restaurant business? Toronto shelters a large number of ethnicities as compared to other cities in Canada. It is therfore a good idea to start a restaurant in Toronto, however we need to make sure the location we open up in is profitable. Choosing a new restaurant location is an important and difficult decision. Our goal for this project is to create a dashboard page with multiple interactive graphs and maps that give insights into restaurant data as well as neighbourhood information in Toronto. Our goal for this project was to create a database that pulled data from many different sources and perform ETL and ultimately load into Postgres SQL.
 
 ## <a name="data-extraction"></a>Data Extraction
 In this project we extracted, transformed, and loaded these datasets: Toronto Neighbourhood, Income, Crime, Toronto Restaurants Data, Restaurants Ratings. 
