@@ -1,4 +1,4 @@
-# Toronto New Restaurant Location Analysis
+# GTA Restaurant Location Analysis
 
 **Submitted By:** Dong Yi Kim | Saif Gorges | Saloni Gupta | Sooyeon Kim </br>
 _Date_: December, 17th, 2020\
